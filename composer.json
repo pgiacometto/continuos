@@ -1,0 +1,29 @@
+{
+    "name": "vendor/phpunit-test",
+    "description": "Description of project phpunit_test.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Giacometto",
+            "email": "pedro.giacometto@gmail.com"
+        }
+    ],
+    
+    "keywords": [
+        "framework",
+        "zf2",
+        "php",
+        "agentedirecto"
+    ],
+    "homepage": "http://agentedirecto.com/",
+    "require": {
+        "php": ">=7.0",
+        "zendframework/zendframework": "~2.5"
+    },
+    "require-dev": {
+        "zendframework/zendframework": "dev-master",
+        "zendframework/zend-developer-tools": "dev-master",
+        "bjyoungblood/bjy-profiler": "dev-master",
+        "zendframework/zftool": "dev-master"
+    }
+}

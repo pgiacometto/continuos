@@ -10,8 +10,6 @@ return array(
         'ZFTool',
         'Application',
         'Test',
-        'Prueba',
-        'Prueba2',
     ),
     'module_listener_options' => array(
         'module_paths' => array(
@@ -19,7 +17,7 @@ return array(
             './vendor',
         ),
         'config_glob_paths' => array(
-            'config/autoload/{{,*.}global,{,*.}local}.php',
+            'config/autoload/{{,*.}global,{,*.}pro}.php',
         ),
     ),
 );

@@ -10,7 +10,7 @@ class IndexControllerTest extends AbstractHttpControllerTestCase
     public function setUp()
     {
         $this->setApplicationConfig(
-                include 'D:/localhost/www/agentedirecto/config/application.config.php'
+                include '/config/application.config.php'
         );
         parent::setUp();
     }

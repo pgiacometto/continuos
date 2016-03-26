@@ -1,0 +1,7 @@
+<phpunit bootstrap="./bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="zf2tutorial">
+            <directory>./TestTest</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
